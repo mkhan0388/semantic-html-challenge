@@ -20,9 +20,8 @@ h1 {
 table {
   border: 5px solid #800080;
   Verdana, sans-serif;
-  table-layout: fixed;
-  width: 70%;
   table-layout: auto;
+  width: 100%;
   border-collapse: collapse;
   
 
