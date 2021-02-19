@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
   margin: 2em;
 }
 
@@ -9,9 +9,55 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
-tr :nth-child(odd) {
+.dark {
   background-color:#ff33cc;
+  background-image: url("./assets/noise.png");
 }
-tr :nth-child(even) {
-  background-color:#e495e4 ;
+.light {
+  background-color:#e495e4;
+  background-image: url("./assets/noise.png");
+}
+table {
+  border: 5px solid #800080;
+  Verdana, sans-serif;
+  table-layout: fixed;
+  width: 70%;
+  table-layout: auto;
+  border-collapse: collapse;
+  
+
+}
+th {
+  color: white;
+  font-family: "Rock Salt";
+  text-align: center;
+  border: 3px solid #800080;
+  padding: 20px;
+    /* background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)); */
+
+  background-image: url("./assets/leopardskin.jpg");
+
+ }
+td {
+  text-align: center;
+  padding: 20px;
+  }
+.bold {
+font-weight: 800;
+}
+tfoot tr {
+  background-image:  url("./assets/leopardskin.jpg");
+  color: white;
+  font-family: "rock salt";
+}
+.right {
+  text-align: right;
+  border: 3px solid #800080;
+}
+.left {
+  text-align: left;
+  border: 3px solid #800080;
+}
+tbody {
+  background-image: url("./assets/noise.png");
 }
